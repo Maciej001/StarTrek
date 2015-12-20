@@ -6,6 +6,7 @@ StarChart = React.createClass({
       <div className="star-chart">
         <svg width="1000" height="600">
           <Stars starData={ props.starData } />
+          <StarShip ship = { props.ship } />
         </svg>
         
       </div>
